@@ -1,0 +1,12 @@
+Flag = Flag-US
+Language = English
+English = English
+French = Fran?ais
+Info = Localization example
+Sound = Sound
+Music = Music
+Desc = English localization
+OpenDialog = OpenDialog
+ShowTip = ShowTip
+QueueTip = QueueTip 
+Doober = Doober

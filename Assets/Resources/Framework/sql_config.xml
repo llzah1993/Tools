@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<root>
+	<server>10.80.1.198</server>
+	<id>root</id>
+	<password>root</password>
+	<database>worldship</database>
+</root>

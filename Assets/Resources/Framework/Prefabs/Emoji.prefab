@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &191302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22422132}
+  - 114: {fileID: 11476822}
+  m_Layer: 5
+  m_Name: Emoji
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11476822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9181ee6f3a2b1ba49b6189dcf034dc05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteList:
+  - SpriteName: {fileID: 21300000, guid: c57d42db49b262d44a8ed90c7b6be65e, type: 3}
+    SpriteID: '{00}'
+  - SpriteName: {fileID: 21300000, guid: 042a11b6c98306a4bae3e98f50709e18, type: 3}
+    SpriteID: '{01}'
+--- !u!224 &22422132
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: .5, y: .5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: SpriteList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].name
+      value: "\u5927\u82B1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].locked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].maxLevel
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[0].hp
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[0].attack
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[0].defense
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[1].hp
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[1].attack
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[1].defense
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[2].hp
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[2].attack
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[2].defense
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[3].hp
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[3].attack
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[3].defense
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[1].name
+      value: "\u5C0F\u82B1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[1].price
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[0].levelPrice
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[1].levelPrice
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[2].levelPrice
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[0].levelProperties.Array.data[3].levelPrice
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[1].levelProperties.Array.data[0].levelPrice
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[1].levelProperties.Array.data[1].levelPrice
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[1].levelProperties.Array.data[2].levelPrice
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[1].levelProperties.Array.data[3].levelPrice
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[2].levelProperties.Array.data[0].levelPrice
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[2].levelProperties.Array.data[1].levelPrice
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[2].levelProperties.Array.data[2].levelPrice
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[2].levelProperties.Array.data[3].levelPrice
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[3].levelProperties.Array.data[0].levelPrice
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[3].levelProperties.Array.data[1].levelPrice
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[3].levelProperties.Array.data[2].levelPrice
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playData.datas.Array.data[3].levelProperties.Array.data[3].levelPrice
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Path
+      value: Emojis
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpriteList.Array.data[0].SpriteName
+      value: 
+      objectReference: {fileID: 21300000, guid: c57d42db49b262d44a8ed90c7b6be65e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: SpriteList.Array.data[0].SpriteID
+      value: '{00}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpriteList.Array.data[1].SpriteID
+      value: '{01}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpriteList.Array.data[1].SpriteName
+      value: 
+      objectReference: {fileID: 21300000, guid: 042a11b6c98306a4bae3e98f50709e18,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 191302}
+  m_IsPrefabParent: 1

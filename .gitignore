@@ -1,0 +1,41 @@
+=============== 
+Unity generated
+===============
+Temp/
+Library/
+ScreenshotFolder/
+Log/*
+ProjectVersion.txt
+
+=====================================
+Visual Studio / MonoDevelop generated
+=====================================
+ExportedObj/
+/obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.zip
+*.rar
+
+============
+OS generated
+============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+============
+eclipse generated
+============
+.project

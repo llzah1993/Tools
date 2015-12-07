@@ -1,0 +1,8 @@
+{
+"use_or_pwd_null":"账号或密码不能为空！",
+"use_unvalid_0":"账号第一个字符不能为下划线！",
+"use_unvalid":"账号不合法！",
+"pwd_unvalid":"密码格式不合法！",
+"pwd_not_same":"两次输入的密码不相同！",
+"reg_please":"请先注册账号！"
+}

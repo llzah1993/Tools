@@ -1,0 +1,12 @@
+﻿Flag = Flag-CN
+Language = 中文
+English = 英文
+French = 法文
+Info = 本地化实例
+Sound = 声音
+Music = 音乐
+Desc = 中文本地化
+OpenDialog = 打开窗口
+ShowTip = 提示信息
+QueueTip = 队列提示 
+Doober = 飞起来
